@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+  <div class="container-fluid" >
+
+    <div class="row  justify-content-lg-center justify-content-md-center justify-content-sm-center mt-5">
+  <div class="   col-lg-2   col-sm-12 col-md-12 text-md-center text-sm-center">
+    <i class="fa-brands fa-amazon w-100 text-warning amazonlogo"></i>
+  </div>
+  
+</div>
+  </div>
+  <div class="container-fluid">
+
+<div class="row justify-content-center">
+  <div class="card p-2" style="width: 20rem;">
+    <h5 >  Sign In </h5>
+     <label class="mb-1 " for="email">Email or mobile phone number</label>
+     <input class="forminput" type="text" name="email" id="email">
+     <button class=" m-4 btn btn-warning w-75 " id="continue" onclick="window.open(index.html)"> continue</button>
+
+     <p class="psize">By continuing, you agree to Amazon's <a class="text-decoration-none" href=""> Conditions of Use </a>
+       & <a href="" class="text-decoration-none"> Conditions of Use </a></p>
+
+       <div class="dropdown">
+        <a class=" dropdown-toggle text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         need help?
+        </a>
+      
+        <ul class="dropdown-menu  ">
+          <li><a class="dropdown-item-text text-decoration-none" href="#">Forgot your password?</a></li>
+          <li><a class="dropdown-item-text text-decoration-none" href="#">Other issues with Sign-In</a></li>
+         
+        </ul>
+      </div>
+      <hr>
+      
+        <p class="text-center">New to Amazon?</p>
+        <button class="ceart" id="creat">Create your Amazon account</button>
+   
+        <footer class="bg-light text-center text-lg-start">
+       
+          <div class="container p-4">
+           
+            <div class="row">
+            
+              <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+               
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-decoration-none asize"> Conditions of Use </a>
+                  </li>
+                  
+                </ul>
+              </div>
+             
+              <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="text-decoration-none asize"> Privacy Notice </a>
+                  </li>
+                  
+                </ul>
+              </div>
+             
+              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+             
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-decoration-none asize">Help</a>
+                  </li>
+                 
+                </ul>
+              </div>
+             
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center asize ">
+            © 1996-2022,Amazon.com,Inc.or its affiliates
+          
+          </div>
+          <!-- Copyright -->
+        </footer>
+    </div>
+</div>
+
+
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+     var con = document.getElementById("continue");
+     con.addEventListener('click',function(){
+      window.open("index.html");
+     })
+     var create = document.getElementById("creat");
+     create.addEventListener('click',function(){
+      window.open("creatAcount.html");
+     })
+    </script>
+</body>
+</html>
